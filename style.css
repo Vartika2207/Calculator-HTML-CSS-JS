@@ -1,0 +1,62 @@
+html {
+    font-size: 62%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    background-repeat: none;
+  }
+
+body{
+    background: rgb(131, 167, 74);
+    margin: 10rem 0rem;
+    padding: 0rem;
+    text-align: center;
+}
+
+.operation-btn{
+    background-color: rgb(218, 218, 78);
+}
+
+.operation-btn:hover{
+    background-color: rgb(119, 119, 18);
+}
+
+.clear-btn{
+    background-color: rgb(189, 87, 87);
+}
+
+.clear-btn:hover{
+    background-color: rgb(146, 23, 23);
+}
+
+.btn:hover{
+    background-color: rgb(173, 171, 171);
+}
+
+input{
+    width: 8.6rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    margin: .6rem;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.display-bar{
+    width: 37.5rem;
+    height: 5rem;
+    background-color: rgb(197, 195, 195);
+}
+
+.calci-container{
+    background-color: rgb(149, 212, 214);
+    width: 43rem;
+    height: 33rem;
+    border-radius: .8rem;
+    margin: 7rem 6rem;
+    border: .1rem solid rgb(96, 214, 235);
+    box-shadow: .6rem .6rem rgb(138, 146, 146);
+}
